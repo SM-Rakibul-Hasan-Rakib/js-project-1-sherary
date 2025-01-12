@@ -1,5 +1,5 @@
-var react = document.querySelector("#center");
+var rect = document.querySelector("#center");
 
-react.addEventListener("mousemove", function () {
-  console.log("hey");
+rect.addEventListener("mousemove", function () {
+  console.log(rect.getBoundingClientRect());
 });
